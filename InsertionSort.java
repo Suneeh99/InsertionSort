@@ -1,18 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package insertionsort;
-
-/**
- *
- * @author sunet
- */
 public class InsertionSort {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void insertionSort(int arr[]){
         for (int i = 1; i < arr.length; i++) { 
             int j = i;
@@ -61,16 +48,12 @@ public class InsertionSort {
 
     public static void main(String[] args) {
         int arr[] = {4, 5, 8, 7 ,1};
-        
         System.out.println("Swap method: ");
-        insertionSort(arr);
-        
+        insertionSort(arr);   
         System.out.println("\nReplaced method: ");        
         insertionSortOP(arr);
-        
         System.out.println("\nDescending array: ");        
         insertSortDesc(arr);        
         System.out.println("");
     }
-    
 }
